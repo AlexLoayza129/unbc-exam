@@ -7,7 +7,8 @@
     <title>{{ env('APP_NAME') }}</title>
     <link rel="dns-prefetch" href="//fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
+    <link rel="stylesheet" href="https://unbc-exam-production.up.railway.app/build/assets/app-DN0YQDMN.css" /><script type="module" src="https://unbc-exam-production.up.railway.app/build/assets/app-BziwsqBe.js"></script>
 </head>
 <body>
     <div id="app">
